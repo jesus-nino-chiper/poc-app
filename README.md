@@ -10,26 +10,46 @@ Design pattern is applied in the framework: Serenity Screenplay
 ### 1. Installation
 
 ```
-1. JDK 1.8.x
+1. JDK 1.8.x or JDK 11.x.x
 2. Maven 3.5.x
 3. Appium v1.8.1
 ```
 
-### Convert JDK from EXE to ZIP
-https://bgasparotto.com/convert-jdk-exe-zip
+### Command
 
-### Download 7-Zip
-https://www.7-zip.org/download.html
-
-### 2. Environment settings
-
-Have an android emulator or real device connected
-
-### Download app
+https://nodejs.org/es/download/
+node -v
+npm install -g appium
+appium -v
+where appium
+appium
+Ctrl+C
+appium -p 4725
+https://developer.android.com/studio
+C:\Users\ninoc\AppData\Local\Android\Sdk
+SDK Platforms
+SDK Tools
+platform-tools
+tools
+tools/bin
+https://www.swtestacademy.com/appium-tutorial/
+sdkmanager --version
+sdkmanager --list
+adb
+adb devices
+App info:
+https://m.apkpure.com/es/app-info/com.princerk.appinfo/download/1-APK
+adb shell "dumpsys activity activities | grep ResumedActivity"
+https://www.softwaretestinghelp.com/automate-native-app-on-android-device/
+iuautomatorviewer
+https://unaqaenapuros.wordpress.com/2019/03/13/049-uiautomatorviewer/
+npm install -g appium-doctor
+appium-doctor --android
+ADV Manager
+Pixel 3
+App metatrader-5:
 https://apkcombo.com/metatrader-5-forex-stock-trading/net.metaquotes.metatrader5/download/apk
 
-### Tutorial app
-https://www.swtestacademy.com/appium-tutorial/
 
 #### Android Caps
 ```
